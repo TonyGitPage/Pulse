@@ -1,6 +1,16 @@
 * {
-    @import 'general';
-    @import 'fonts';
     font-family: 'Museo Sans Cyrl';
-    // font-family: 'MuseoModerno', cursive;
+}
+
+@import 'fonts';
+@import 'variables';
+@import 'media';
+@import 'blocks/promo.scss';
+@import 'blocks/header.scss';
+@import 'blocks/buttons.scss';
+@import 'blocks/advantages.scss';
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
 }

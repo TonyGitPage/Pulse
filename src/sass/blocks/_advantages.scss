@@ -1,7 +1,9 @@
 .advantages {
-    height: 473px;
-    padding: 70px 0 65px 0;
-    background: #F6F6F6;
+    &__settings {
+        height: 473px;
+        padding: 70px 0 65px 0;
+        background: #F6F6F6;
+    }
     &__header {
         font-weight: 700;
         font-size: 30px;
@@ -40,5 +42,9 @@
         font-weight: 300;
         font-size: 14px;
         line-height: 18px;
+        span {
+            color: $main_color;
+            text-decoration: underline;
+        }
     }
 }

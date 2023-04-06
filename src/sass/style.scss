@@ -13,9 +13,16 @@
 @import 'blocks/forms.scss';
 @import 'blocks/carousel.scss';
 @import 'blocks/catalog.scss';
+@import 'blocks/review.scss';
+@import 'blocks/footer.scss';
+@import 'blocks/modal.scss';
 @import 'media';
 
 .container {
     max-width: 950px;
     margin: 0 auto;
+    &_form {
+        display: flex;
+        flex-direction: column;
+    }
 }
